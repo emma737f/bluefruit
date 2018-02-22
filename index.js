@@ -56,8 +56,9 @@ function refreshDeviceList(){
 
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
-if(device.id=="EE:8F:2B:CB:49:84"){
+
 	var listItem = document.createElement('li'),
+	if(device.id==="EE:8F:2B:CB:49:84"){
     html = device.name+ "," + device.id;
     listItem.innerHTML = html;
     document.getElementById("bleDeviceList").appendChild(listItem);
