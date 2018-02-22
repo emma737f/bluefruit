@@ -11,24 +11,29 @@
         <script type="text/javascript" src="js/index.js"></script>
         <title>Beacon</title>
     </head>
+	
+	<style>
+		<button class="button" style="vertical-align:middle"><span>Hover </span></button>
+
+</style>
+	
      <body onload="onLoad()">
 
-		<h1>Bluifruit test</h1>
+		<h1>uHub</h1>
            
 		<ul id="bleDeviceList"> </ul>  
 		<button id="refreshButton" onClick = "refreshDeviceList()">Refresh</button>
 		<br>
 		<div id="statusDiv">Status: Disconnected</div>
-		<div id="bleId">DeviceId:</div>
+		<div id="bleId">Device ID:</div>
 		<div id="debugDiv"></div>
 		<br><br>
-		<button id="ledOnButton" onclick = "data('1')">Set led ON</button>
-		<br><br>
-		<button id="ledOffButton" onclick = "data('0')">Set Led Off</button>
+		
 		<br><br><br>
-		<input type="text" id="messageInput" value="Hello"/>
+		<input type="text" id="messageInput" value="Insert Text Here"/>
 		<br>
-		<button id="sendButton" onclick = "sendData()">Send</button>
+		<br><br>
+		<button id="sendButton" onclick = "sendData()">Send Message</button>
 		<br>
 		
 		<br>
