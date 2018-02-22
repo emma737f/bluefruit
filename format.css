@@ -1,6 +1,78 @@
 body{
-	background-color: green;
+	background-size: auto;
+	height: 750px;
+    background-color: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(skyblue, blue); /* Standard syntax (must be last) */
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
 }	
+
+h1{
+	font-size: 40px;
+	
+}
+
+	button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: white;
+	border: none;
+	color: #000000;
+	text-align: center;
+	font-size: 23px;
+	font-family: "Courier New", Courier, monospace;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+	
+	button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+	
+	button span: after{
+	content:'\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+	
+	button:hover span {
+	padding-right: 25px;
+}
+
+	button:hover span: after {
+	opacity: 1;
+	right: 0;
+}
+
+input[type=text] {
+	width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+    background-color: white;
+    background-image: url('speech.jpg');
+	background-size: 27px 27px; 
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	font-family: "Courier New", Courier, monospace;
+	color: DimGrey;
+    padding: 12px 20px 12px 40px;
+}
+
+	
+
+
 img{
 	width: 100%;	
 }
@@ -20,21 +92,19 @@ img{
 }	
 #messageInput{
 	
+	
 }
 #list{
-	background-color: red;
+	background-color: linear-gradient(cornflowerblue, blue);
 }
 
-/* width will be 100% of content */
+/* width will be 15% of content */
 #refreshButton{
-	width: 100%;
+	width: 15%;
 }
 #sendButton{
-	width: 100%;
+	width: 15%;
 }
-#ledOnButton{
-	width: 100%;
-}
-#ledOffButton{
-	width: 100%;
+#disconnectButton{
+	width: 15%;
 }
