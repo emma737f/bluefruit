@@ -47,7 +47,7 @@ h1{
 	
 
 input[type=text] {
-	width: 15%;
+	width: 50%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -58,7 +58,7 @@ input[type=text] {
     background-position: 10px 10px; 
     background-repeat: no-repeat;
 	font-family: "Courier New", Courier, monospace;
-	color: DimGrey;
+	color: black;
     padding: 12px 20px 12px 40px;
 }
 
@@ -92,11 +92,11 @@ img{
 
 /* width will be 15% of content */
 #refreshButton{
-	width: 15%;
+	width: 50%;
 }
 #sendButton{
-	width: 15%;
+	width: 50%;
 }
 #disconnectButton{
-	width: 15%;
+	width: 50%;
 }
