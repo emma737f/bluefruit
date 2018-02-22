@@ -2,7 +2,7 @@ body{
 	background-size: auto;
 	height: 750px;
     background-color: blue; /* For browsers that do not support gradients */
-    background: linear-gradient(skyblue, blue); /* Standard syntax (must be last) */
+    background: linear-gradient(skyblue, navy); /* Standard syntax (must be last) */
 	font-family: "Courier New", Courier, monospace;
 	text-align: center;
 }	
@@ -48,6 +48,7 @@ h1{
 
 input[type=text] {
 	width: 50%;
+	height: 20%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -55,7 +56,7 @@ input[type=text] {
     background-color: white;
     background-image: url('speech.jpg');
 	background-size: 27px 27px; 
-    background-position: 10px 10px; 
+    background-position: 10px 57px; 
     background-repeat: no-repeat;
 	font-family: "Courier New", Courier, monospace;
 	color: black;
