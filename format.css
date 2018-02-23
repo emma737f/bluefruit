@@ -64,13 +64,9 @@ input[type=password] {
 	
 }
 
-messageInput {
-	color: #ffffff;
-}
 
-text {
-	color: white;
-}
+
+
 	placeholder-fix:focus::-webkit-input-placeholder  {color:transparent;}
 	placeholder-fix:focus::-moz-placeholder   {color:transparent;}
 	placeholder-fix:-moz-placeholder   {color:transparent;}
@@ -96,7 +92,15 @@ img{
 #messageInput{
 	
 	
+	
 }
+#sendDiv {
+	color: white;
+}
+#receiveDiv {
+	color: white;
+}
+
 #list{
 	background-color: linear-gradient(cornflowerblue, blue);
 }
