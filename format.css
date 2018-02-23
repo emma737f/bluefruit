@@ -1,6 +1,6 @@
 body{
 	background-size: auto;
-	height: 750px;
+	height: 900px;
     background-color: blue; /* For browsers that do not support gradients */
     background: linear-gradient(skyblue, navy); 
 	font-family: "Courier New", Courier, monospace;
