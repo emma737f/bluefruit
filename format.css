@@ -2,7 +2,7 @@ body{
 	background-size: auto;
 	height: 750px;
     background-color: blue; /* For browsers that do not support gradients */
-    background: linear-gradient(skyblue, navy); /* Standard syntax (must be last) */
+    background: linear-gradient(skyblue, navy); 
 	font-family: "Courier New", Courier, monospace;
 	text-align: center;
 }	
@@ -61,9 +61,13 @@ input[type=text] {
 	font-family: "Courier New", Courier, monospace;
 	color: black;
     padding: 12px 20px 12px 40px;
+	
 }
 
-	
+
+	placeholder-fix:focus::-webkit-input-placeholder  {color:transparent;}
+	placeholder-fix:focus::-moz-placeholder   {color:transparent;}
+	placeholder-fix:-moz-placeholder   {color:transparent;}
 
 
 img{
