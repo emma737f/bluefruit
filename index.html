@@ -14,11 +14,9 @@
 	
 	<style>
 		<button class="button" style="vertical-align:middle"><span>Hover </span></button>
-
 </style>
 	
      <body onload="onLoad()">
-
 		<h1>uHub</h1>
            
 		<ul id="bleDeviceList"> </ul>  
@@ -29,26 +27,31 @@
 		<div id="debugDiv"></div>
 		<br><br>
 		
-		<br><br><br>
+		<form action="">
+Username:<br>
+<input type="text" name="userid">
+<br>
+User password:<br>
+<input type="password" name="psw">
+<br><br>
+<input type="submit" value="Submit">
+</form>
+		
+		<br>
 		<input type="text" placeholder="Insert Text" class="placeholder-fix"/>
 		<br>
-		<br><br>
-		<button id="sendButton" onclick = "sendData()">Send Message</button>
+		
+		<button id="sendButton" onclick = "sendData()">Send </button>
 		<br>
 		
 		<br>
 		<div id="sendDiv"></div>
-		<br><br>
+		<br>
 		<button id="disconnectButton"onClick="disconnect()">Disconnect</button>
 		<div id="receiveDiv"></div>
 		
 		
-
-
-
-
 		
     </body>
 </html>
 			
-
