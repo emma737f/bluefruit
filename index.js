@@ -56,9 +56,9 @@ function refreshDeviceList(){
 
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
-
+	if(device.id == "EE:8F:2B:CB:49:84"){
 	var listItem = document.createElement('li'),
-	if(device.id === "EE:8F:2B:CB:49:84"){
+
     html = device.name+ "," + device.id;
     listItem.innerHTML = html;
     document.getElementById("bleDeviceList").appendChild(listItem);
@@ -107,14 +107,15 @@ function onSend(){
 }
 
 function disconnect() {
-	ble.disconnect(deviceId, onDisconnect, onError);
+	ble.disconnect(ConnDeviceId, onDisconnect, onError);
 }
 
 function onDisconnect(){
 	document.getElementById("statusDiv").innerHTML = "Status: Disconnected";
 }
 function onError(reason)  {
-	alert("ERROR: " + reason); // real apps should use notification.alert
+	alert("ERROR: " + reason); // real applications should use notification.alert
 }
+
 
 	

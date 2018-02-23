@@ -18,32 +18,16 @@ h1{
 	background-color: white;
 	border: none;
 	color: #000000;
-	text-align: center;
+	text-align: relative;
 	font-size: 20px;
 	font-family: "Courier New", Courier, monospace;
 	padding: 20px;
 	width: 200px;
 	height: 70px;
-	transition: all 0.5s;
+	
 	cursor: pointer;
 	margin: 5px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-	
-	button span {
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
-}
-	
-	button span: after{
-	content:'\00bb';
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	right: -20px;
-	transition: 0.5s;
 }
 	
 
@@ -73,9 +57,6 @@ input[type=password] {
     border-radius: 4px;
     font-size: 17px;
     background-color: white;
-    
-	
-     
     background-repeat: no-repeat;
 	font-family: "Courier New", Courier, monospace;
 	color: black;
@@ -123,4 +104,5 @@ img{
 }
 #disconnectButton{
 	width: 50%;
+	display: inline-block;
 }
