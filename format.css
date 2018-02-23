@@ -65,6 +65,10 @@ input[type=password] {
 	
 }
 
+messageInput {
+	color: #ffffff;
+}
+
 	placeholder-fix:focus::-webkit-input-placeholder  {color:transparent;}
 	placeholder-fix:focus::-moz-placeholder   {color:transparent;}
 	placeholder-fix:-moz-placeholder   {color:transparent;}
